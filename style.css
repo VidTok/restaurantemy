@@ -1,0 +1,793 @@
+body {
+    background-color: black;
+}
+
+.spaceFirst {
+    height: 120px;
+    background-color: black;
+}
+
+.menuContainer {
+    height: 120px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0px;
+}
+
+.logo {
+    align-self: center;
+    margin-left: 50px;
+    height: 100px;
+}
+
+.logo:hover {
+    height: 105px;
+}
+
+.menuLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #88001b;
+}
+
+.mainContainer {
+    box-sizing: border-box;
+}
+
+.mainImg {
+    width: 100%;
+}
+
+.smallHeadingBox {
+    position: absolute;
+    margin-top: -66.4%;
+    margin-left: 82%;
+}
+
+.smallHeadingBoxDis {
+    width: 150px;
+    height: 150px;
+    background-color: #88001b;
+    padding: 10px;
+    opacity: 0;
+}
+
+.smallHeading {
+    font-size: 20px;
+    font-family: Helvetica;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.headingBox {
+    position: absolute;
+    margin-top: -50%;
+    margin-left: 9%;
+    font-family: Helvetica;
+    color: white;
+}
+
+.heading {
+    font-size: 50px;
+    color: #88001b;
+    font-weight: 800;
+}
+
+.headingPar {
+    font-size: 25px;
+}
+
+.promoBox {
+    display: flex;
+    align-items: center;
+    background-color: #88001b;
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    margin-top: -10%;
+}
+
+.promoBoxMob {
+    display: none;
+}
+
+.promoPar {
+    color: white;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.promoParMob {
+    color: white;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 30px;
+}
+
+.footnotes {
+    color: white;
+    font-family: Helvetica;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.orderContainer {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.orderBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.orderBox:hover {
+    margin-top: 90px;
+}
+
+.burgerBackCover {
+    background-color: #191818;
+    width: 330px;
+    height: 200px;
+    border: #232121;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.burgerName {
+    font-size: 13px;
+    color: white;
+    font-family: Helvetica;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#btn {
+    margin-bottom: 20px;
+    border: none;
+    background-color: #88001b;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+#btn:hover {
+    font-size: 14px;
+}
+
+.burgerImg {
+    margin-top: -330px;
+    width: 400px;
+}
+
+.secondMainImg {
+    width: 100%;
+}
+
+.secondParBox {
+    position: absolute;
+    margin-top: -66.4%;
+    margin-left: 75%;
+}
+
+.secondParBoxDesign {
+    background-color: #88001b;
+    width: 350px;
+    height: fit-content;
+    color: white;
+    font-family: Helvetica;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.feedbackContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Helvetica;
+}
+
+.orderTotalHeading {
+    color: white;
+}
+
+.orderTotalBox {
+    background-color: #88001b;
+    width: 300px;
+    height: fit-content;
+    padding: 20px;
+    color: white;
+}
+
+.feedbackBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.fbDis {
+    padding: 10px;
+}
+
+.fbInpDis {
+    width: 200px;
+    padding: 5px;
+}
+
+.fbInpDateDis {
+    width: 130px;
+    padding: 5px;
+}
+
+.fbInpTimeDis {
+    width: 70px;
+    padding: 5px;
+}
+
+.fbInpOrDis {
+    width: 300px;
+    padding: 5px;
+}
+
+#feedBackBtn {
+    border: none;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    background-color: #88001b;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#feedBackBtn:hover {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #88001b;
+    padding: 50px;
+    color: white;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mapG {
+    width: 450px;
+    height: 250px;
+}
+
+.socialMediaIcons {
+    width: 100px;
+}
+
+@media all and (max-width: 1300px) {
+    
+    .logo {
+        margin-left: 20px;
+    }
+
+    .menuLinks {
+        margin-right: 100px;
+    }
+
+    .headingBox {
+        margin-top: -60%;
+    }
+
+    .smallHeadingBox {
+        margin-left: 78%;
+    }
+
+
+    .promoBox, .promoPar {
+        display: none;
+    }
+
+    .promoBoxMob {
+        display: block;
+        display: flex;
+        background-color: #88001b;
+        height: 70px;
+        width: 98.75%;
+        position: absolute;
+        margin-top: -10%;
+        align-items: center;
+    }
+
+    .secondParBoxDesign {
+        width: 250px;
+        font-size: 20px;
+    }
+
+    .secondParBox {
+        margin-left: 70%;
+        margin-top: -66.2%;
+    }
+
+    .orderContainer {
+        margin-top: 0px;
+        padding: 50px;
+    }
+    
+
+}
+
+@media all and (max-width: 1100px) {
+
+    .menuLinks {
+        margin-right: 80px;
+    }
+
+    .smallHeadingBox {
+        margin-top: -66%;
+        margin-left: 75%;
+    }
+    
+    .promoBoxMob {
+        width: 98.4%;
+    }
+
+    .secondParBox {
+        margin-top: -66%;
+        margin-left: 65%;
+    }
+
+}
+
+@media all and (max-width: 950px) {
+
+    .menuLinks {
+        margin-right: 50px;
+    }
+
+    .smallHeadingBox {
+        margin-left: 75%;
+    }
+    
+    .promoBoxMob {
+        width: 98.09%;
+        margin-top: -10%;
+    }
+
+    .headingBox {
+        margin-top: -57%;
+        margin-left: 9%;
+    }
+    
+    .heading {
+        font-size: 40px;
+    }
+    
+    .headingPar {
+        font-size: 20px;
+    }
+
+    .secondParBox {
+        margin-left: 62%;
+    }
+
+    .adressBox {
+        margin-bottom: 30px;
+    }
+
+    .socialMedia {
+        margin-top: 30px;
+    }
+
+}
+
+@media all and (max-width: 850px) {
+
+    .smallHeadingBox {
+        margin-left: 70%;
+    }
+    
+    .promoBoxMob {
+        margin-top: -13%;
+    }
+
+    .promoParMob {
+        font-size: 17px;
+    }
+
+    .secondParBox {
+        margin-left: 57%;
+    }
+
+    .orderTotalContainer {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+
+    .menuContainer {
+        height: 80px;
+    }
+
+    .logo {
+        margin-left: 0px;
+        height: 60px;
+    }
+
+    .menuLinks {
+        margin-right: 20px;
+    }
+    
+    a {
+        font-size: 15px;
+    }
+
+    .smallHeadingBox {
+        margin-top: -65%;
+        margin-left: 70%;
+    }
+
+    .smallHeadingBoxDis {
+        width: 110px;
+        height: 75px;
+    }
+    
+    .smallHeading {
+        font-size:15px;
+        padding: 5px;
+    }
+
+    .headingBox {
+        margin-top: -60%;
+        margin-left: 7%;
+        width: 350px;
+    }
+    
+    .heading {
+        font-size: 20px;
+    }
+    
+    .headingPar {
+        font-size: 14px;
+    }
+
+    .promoBoxMob {
+        width: 97%;
+        margin-top: -13%;
+        height: 40px;
+    }
+
+    .promoParMob {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .secondParBox {
+        margin-left: 60%;
+    }
+
+    .orderTotalContainer {
+        margin-bottom: 30px;
+    }
+
+    .footnotes {
+        font-size: 10px;
+    }
+    
+    .secondParBox {
+        margin-top: -65%;
+        margin-left: 62%;
+    }
+
+    .secondParBoxDesign {
+        width: 150px;
+        height: fit-content;
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .orderBox {
+        margin-top: 60px;
+    }
+
+    .socialMediaIcons {
+        width: 50px;
+    }
+
+    .adressBox {
+        font-size: medium;
+    }
+
+}
+
+@media all and (max-width: 450px) {
+
+    .menuContainer {
+        height: 65px;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .menuLinks {
+        margin-right: 15px;
+    }
+    
+    a {
+        font-size: 10px;
+    }
+
+    .smallHeadingBox {
+        margin-top: -65%;
+        margin-left: 67%;
+    }
+
+    .smallHeadingBoxDis {
+        width:75px;
+        height: 55px;
+    }
+    
+    .smallHeading {
+        font-size:10px;
+        padding: 5px;
+    }
+
+    .headingBox {
+        margin-top: -55%;
+        margin-left: 7%;
+        width: 350px;
+    }
+    
+    .heading {
+        font-size: 15px;
+    }
+    
+    .headingPar {
+        font-size: 12px;
+    }
+
+    .promoBoxMob {
+        width: 96.3%;
+        margin-top: -14%;
+        height: 30px;
+    }
+
+    .promoParMob {
+        margin-left: 10px;
+        font-size: 8px;
+    }
+
+    .orderTotalContainer {
+        margin-bottom: 30px;
+    }
+
+    .footnotes {
+        font-size: 9px;
+    }
+    
+    .secondParBox {
+        margin-top: -65%;
+        margin-left: 57%;
+    }
+
+    .secondParBoxDesign {
+        width: 110px;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .mapG {
+        width: 250px;
+        height: 180px;
+    }
+
+    .feedbackBox {
+        padding: 10px;
+    }
+
+}
+
+@media all and (max-width: 300px) {
+
+    .menuContainer {
+        height: 50px;
+    }
+
+    .logo {
+        height: 30px;
+    }
+
+    .menuLinks {
+        margin-right: 10px;
+    }
+
+    a {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    
+    .smallHeadingBox {
+        margin-top: -67%;
+        margin-left: 68%;
+    }
+
+    .smallHeadingBoxDis {
+        width:65px;
+        height: 45px;
+        padding: 0px;
+    }
+    
+    .smallHeading {
+        font-size:8px;
+        padding: 5px;
+    }
+
+    .headingBox {
+        margin-top: -57%;
+        margin-left: 5%;
+    }
+    
+    .heading {
+        font-size: 13px;
+    }
+    
+    .headingPar {
+        font-size: 9px;
+    }
+
+    .promoBoxMob {
+        width: 95%;
+        margin-top: -14%;
+        height: 20px;
+    }
+
+    .promoParMob {
+        margin-left: 5px;
+        font-size: 6px;
+    }
+
+    .footnotes {
+        font-size: 7px;
+        padding: 10px;
+    }
+
+    .secondParBox {
+        margin-left: 60%;
+    }
+
+    .orderTotalContainer {
+        margin-bottom: 30px;
+    }
+    
+    .burgerBackCover {
+        width: 250px;
+        height: 200px;
+    }
+    
+    .burgerName {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    
+    .burgerImg {
+        margin-top: -250px;
+        width: 200px;
+    }
+
+    #btn {
+        font-size: 11px;
+    }
+    
+    #btn:hover {
+        font-size: 13px;
+    }
+   
+    .secondParBox {
+        margin-top: -63%;
+        margin-left: 60%;
+    }
+
+    .secondParBoxDesign {
+        width: 80px;
+        padding: 5px;
+        font-size: 7px;
+    }
+
+    .mapG {
+        width: 200px;
+        height: 150px;
+    }
+
+    .orderTotalHeading {
+        font-size: 15px;
+    }
+    
+    .orderTotalBox {
+        width: 200px;
+        padding: 10px;
+    }
+
+    .feedbackBox {
+        padding: 5px;
+        font-size: 13px;
+    }
+    
+    .fbDis {
+        padding: 10px;
+    }
+    
+    .fbInpDis {
+        width: 120px;
+        padding: 5px;
+    }
+    
+    .fbInpDateDis {
+        width: 100px;
+        padding: 5px;
+    }
+    
+    .fbInpTimeDis {
+        width: 50px;
+        padding: 5px;
+    }
+    
+    .fbInpOrDis {
+        width: 200px;
+        padding: 5px;
+    }
+    
+    #feedBackBtn {
+        padding: 10px;
+        width: 200px;
+    }
+
+    .adressBox {
+        font-size: small;
+    }
+
+
+}
